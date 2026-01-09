@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Моя Домашняя Страница</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>👋 Добро пожаловать!</h1>
+        <div class="time" id="time">00:00:00</div>
+        <div class="date" id="date">Загрузка...</div>
+    </div>
+    
+    <div class="widget">
+        <h2>📅 Календарь</h2>
+        <div class="calendar" id="calendar"></div>
+    </div>
+    
+    <div class="widget">
+        <h2>🌤️ Погода • Арад</h2>
+        <div id="weather-container">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p style="margin-top: 15px;">Загрузка погоды...</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
